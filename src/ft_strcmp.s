@@ -11,7 +11,6 @@ ft_strcmp:
         cmp al, 0
         je loop_end
         mov dl, [rsi, rcx]
-
         cmp al, dl
         jne loop_end
         inc rcx
